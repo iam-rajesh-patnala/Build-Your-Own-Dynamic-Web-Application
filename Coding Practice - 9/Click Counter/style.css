@@ -1,0 +1,25 @@
+* {
+    font-family: 'Roboto';
+}
+
+.bg-container {
+    color: #f1f5f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.title {
+    font-weight: bold;
+    color: #2d3a35;
+}
+
+.sub-heading {
+    color: #2d3a35;
+}
+
+.counter {
+    color: #c20a72;
+}
