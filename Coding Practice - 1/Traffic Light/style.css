@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+.background {
+    background-color: #86d2f2;
+    height: 100vh;
+    text-align: center;
+}
+
+.heading {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 46px;
+    color: #1f1d41;
+}
+
+.light-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.button {
+    background-color: #1f1d41;
+    color: #ffffff;
+    font-size: 15px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0;
+    margin-top: 45px;
+    box-shadow: 0px 0px 1px 1px #1f1d41;
+}
+
+.traffic-light {
+    background-color: #1f1d41;
+    height: 300px;
+    width: 100px;
+    border-radius: 40px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.light {
+    background-color: #4b5069;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 25px 0 25px 5px;
+}
