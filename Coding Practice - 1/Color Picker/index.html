@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Color Picker</title>
+</head>
+
+<body>
+    <div class="background" id="colorPickerContainer">
+        <h1 class="heading">Color Picker</h1>
+        <div>
+            <button id="button1" onclick="buttonClick1()">#e0e0e0</button>
+            <button id="button2" onclick="buttonClick2()">#6fcf97</button>
+            <button id="button3" onclick="buttonClick3()">#56ccf2</button>
+            <button id="button4" onclick="buttonClick4()">#bb6bd9</button>
+        </div>
+        <p class="bgStatus">Background Color : <span id="selectedColorHexCode">#fffff</span></p>
+        <p>Try clicking on one of the colors above to change the background color of this page!</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

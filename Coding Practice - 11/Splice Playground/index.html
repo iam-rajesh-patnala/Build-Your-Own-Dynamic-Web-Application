@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Splice Playground</title>
+</head>
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <h1 class="playground-heading col-12 text-center">Splice Playground</h1>
+            <div class="col-4 mt-4 mb-4">
+                <label class="input-label">START INDEX</label>
+                <input type="text" class="user-input" id="startIndexInput" placeholder="1" />
+            </div>
+            <div class="col-4 mt-4 mb-4">
+                <label class="input-label">DELETE COUNT</label>
+                <input type="text" class="user-input" id="deleteCountInput" placeholder="0" />
+            </div>
+            <div class="col-4 mt-4 mb-4">
+                <label class="input-label">ITEM TO ADD</label>
+                <input type="text" class="user-input" id="itemToAddInput" placeholder="2" />
+            </div>
+            <div class="col-12 text-center mb-4">
+                <button class="btn btn-primary" id="spliceBtn">Splice</button>
+            </div>
+            <h1 class="col-12 updated-array-heading">Updated Array</h1>
+            <div class="col-12 updated-array-container">
+                <span class="updated-array" id="updatedArray"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

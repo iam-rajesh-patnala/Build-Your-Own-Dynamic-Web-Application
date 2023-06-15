@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Know Fact About the Number</title>
+</head>
+
+<body>
+    <div class="p-2 bg-container d-flex flex-column justify-content-center text-center">
+        <h1 class="heading">Enter a number to know interesting facts about the number</h1>
+        <input id="userInput" type="search" class="form-control user-input ml-auto mr-auto mt-4"
+            placeholder="Enter a Number" />
+        <div class="d-none spinner" id="spinner">
+            <div class="d-flex flex-row justify-content-center mt-4">
+                <div class="spinner-border" role="status"></div>
+            </div>
+        </div>
+        <p id="fact" class="fact-text mt-4">0 is the atomic number of the theoretical element tetraneutron.</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

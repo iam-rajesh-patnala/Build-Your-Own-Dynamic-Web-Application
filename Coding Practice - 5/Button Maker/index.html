@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Button Maker</title>
+
+</head>
+
+<body>
+    <div class="button-maker-bg-container p-4">
+        <h1 class="button-maker-heading text-center mb-4">Button Maker</h1>
+        <div class="button-maker-container bg-light pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <p class="input-label">BACKGROUND COLOR</p>
+                        <input id="bgColorInput" class="user-input" type="text" />
+                        <p class="input-label">FONT COLOR</p>
+                        <input id="fontColorInput" class="user-input" type="text" />
+                        <p class="input-label">FONT SIZE (in px)</p>
+                        <input id="fontSizeInput" class="user-input" type="text" />
+                        <p class="input-label">FONT WEIGHT</p>
+                        <input id="fontWeightInput" class="user-input" type="text" />
+                        <p class="input-label">PADDING (in px)</p>
+                        <input id="paddingInput" class="user-input" type="text" />
+                        <p class="input-label">BORDER RADIUS (in px)</p>
+                        <input id="borderRadiusInput" class="user-input" type="text" />
+                        <div class="text-right mt-4">
+                            <button id="applyButton" class="btn btn-primary">
+                                Apply
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 mt-4 text-center">
+                        <button id="customButton" class="custom-button">Custom Button</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

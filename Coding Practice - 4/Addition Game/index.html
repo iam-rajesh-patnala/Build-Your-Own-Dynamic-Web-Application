@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Addition Game</title>
+</head>
+
+<body>
+    <div class="text-center">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/sum-of-two-numbers-img.png" class="image" />
+        <div class="bg-container pt-5 pb-5">
+            <span id="firstNumber" class="number m-2"></span> <!-- user input -->
+            <span class="operator m-1">+</span>
+            <span id="secondNumber" class="number m-2"></span> <!-- user input -->
+            <span class="operator m-1">=</span>
+            <input id="userInput" class="user-input" type="text" /> <!-- intraction -->
+            <div class="mt-4 mb-4">
+                <button onclick="checkButton()" id="checkButton" class="btn btn-primary mr-3">
+                    Check
+                </button>
+                <button onclick="restartButton()" id="restartButton" class="btn btn-primary">
+                    Restart
+                </button>
+            </div>
+            <p id="gameResult" class="game-result"></p> <!-- result -->
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

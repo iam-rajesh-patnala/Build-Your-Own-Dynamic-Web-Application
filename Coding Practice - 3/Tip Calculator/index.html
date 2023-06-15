@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div class="tip-calculator-container pb-5">
+        <img class="tip-calculator-image"
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/tip-calculator-img.png" />
+        <h1 class="tip-calculator-heading text-center mt-4 mb-4">Tip Calculator</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                    <p class="input-label mb-2">BILL AMOUNT</p>
+                    <input id="billAmount" type="text" class="user-input" />
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p class="input-label mb-2">PERCENTAGE TIP</p>
+                    <input id="percentageTip" type="text" class="user-input" />
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p class="input-label mb-2">TIP AMOUNT</p>
+                    <input id="tipAmount" type="text" class="user-input" />
+                </div>
+                <div class="col-12 col-md-6 mb-4">
+                    <p class="input-label mb-2">TOTAL</p>
+                    <input id="totalAmount" type="text" class="user-input" />
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <button onclick="calculateButton()" class="btn btn-info calculate-tip-button"
+                        id="calculateButton">CALCULATE</button>
+                    <p id="errorMessage" class="error-message text-center"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

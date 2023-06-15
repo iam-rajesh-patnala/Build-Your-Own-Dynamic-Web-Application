@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Toggle Like and Unlike</title>
+
+</head>
+<body>
+        <div>
+            <img id="puppyImage" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/white-puppy-img.png"
+                class="puppy-image" />
+            <div class="d-flex flex-row justify-content-center mt-4">
+                <i id="likeIcon" class="fa fa-thumbs-up like-icon" aria-hidden="true"></i>
+                <button id="likeButton" class="like-button ml-2" onclick="onClickLikeButton()">
+                    Like
+                </button>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
