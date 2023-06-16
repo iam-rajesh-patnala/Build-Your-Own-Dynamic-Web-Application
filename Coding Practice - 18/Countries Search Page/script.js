@@ -48,8 +48,12 @@ function displaySearchResults() {
 
     for (let country of countriesList) { 
         let countryName = country.name;
+        let countryPopulation = country.population;
 
-        if (countryName.toLowerCase().includes(searchInputVal.toLowerCase())) { 
+
+
+        if (countryName.toLowerCase().includes(searchInputVal.toLowerCase())|| countryPopulation.toString().length === (parseInt(searchInputVal))        
+        ) { 
             createAndAppendCountry(country);
         }
     }
