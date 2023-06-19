@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Answer the Question</title>
+</head>
+<body>
+    <div class="bg-container p-4">
+        <h1 class="heading">Answer the Question</h1>
+        <form accept-charset="utf-8" class="form" id="questionsForm">
+            <h1 class="question">What is the capital of India?</h1>
+            <div id="cities" class="d-flex flex-column ml-4">
+    
+                <div class="mb-2 mt-2">
+                    <input type="radio" name="capital" id="cityHyderabad" value="Hyderabad" />
+                    <label for="cityHyderabad" class="ml-2 label-text">Hyderabad</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" name="capital" id="cityChennai" value="Chennai" />
+                    <label for="cityChennai" class="ml-2 label-text">Chennai</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" name="capital" id="cityDelhi" value="Delhi" />
+                    <label for="cityDelhi" class="ml-2 label-text">Delhi</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" name="capital" id="cityMumbai" value="Mumbai" />
+                    <label for="cityMumbai" class="ml-2 label-text">Mumbai</label>
+                </div>
+                <div class="">
+                    <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+                    <p id="resultMsg" class="results-message mt-4"></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

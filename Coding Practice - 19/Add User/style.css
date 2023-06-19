@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.form-heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    padding: 40px 0 20px 0;
+}
+
+.error-message {
+    font-family: "Roboto";
+    font-size: 12px;
+    color: #ff0000;
+}
+
+.label-text {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Roboto";
+}

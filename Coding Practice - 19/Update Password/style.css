@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+.bg-container {
+    background-image: linear-gradient(to bottom, #fda4b5, #9971bf);
+    height: 100vh;
+    padding-top: 48px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container {
+    padding: 48px;
+
+}
+
+.new-password,
+.confirm-password {
+    margin-bottom: 32px;
+}
+
+.label-text {
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 12px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.error-message {
+    color: #ff0000;
+    font-family: "Roboto";
+    font-size: 14px;
+}

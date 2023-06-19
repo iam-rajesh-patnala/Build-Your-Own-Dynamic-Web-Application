@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>User Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="form-heading">Add User</h1>
+        <form action="" id="userForm">
+            <!-- User-field  ends-->
+            <div class="mb-4">
+                <label for="user">User</label>
+                <input type="text" class="form-control" id="user" name="user" placeholder="Enter User Name" autocomplete="on">
+                <p class="errorMessage" id="userError"></p>
+            </div>
+            <!-- User-field  ends-->
+
+            <!-- Email-field  starts-->
+            <div class="mb-4">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" id="email" name="email" placeholder="Enter User Email" autocomplete="on">
+                <p class="errorMessage" id="emailError"></p>
+            </div>
+            <!-- Email-field  ends-->
+
+            <!-- Status Drop-down start -->
+            <div class="mb-4">
+                <label for="status">Working Status</label>
+                <select name="status" id="status" class="form-control">
+                    <option value="Active" selected>Active</option>
+                    <option value="Inactive">Inactive</option>
+                </select>
+            </div>
+            <!-- Status Drop-down end -->
+
+            <!-- Radio Button Starts-->
+            <div class="mb-4">
+                <h1 class="gender-field-heading">Gender</h1>
+                <input type="radio" id="genderMale" name="gender" value="Male" checked />
+                <label for="genderMale">Male</label>
+                <input type="radio" id="genderFemale" name="gender" value="Female" class="ml-2" />
+                <label for="genderFemale">Female</label>
+            </div>
+            <!-- Radio Button Ends-->
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>

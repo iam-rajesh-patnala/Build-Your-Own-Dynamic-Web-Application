@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Update Password</title>
+</head>
+
+<body>
+    <div class="bg-container">
+        <h1 class="heading">Update Password</h1>
+        <form id="updatePasswordForm" class="form-container">
+
+            <div class="new-password">
+                <label for="newPassword" class="label-text">NEW PASSWORD</label>
+                <input type="password" name="newPassword" id="newPassword" class="form-control"
+                    placeholder="Create new password">
+                <p id="newPasswordErrMsg" class="error-message"></p>
+            </div>
+
+            <div class="confirm-password">
+                <label for="confirmPassword" class="label-text">CONFIRM PASSWORD</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" class="form-control"
+                    placeholder="Confirm password">
+                <p id="confirmPasswordErrMsg" class="error-message"></p>
+            </div>
+
+            <div class="button">
+                <button type="submit" class="btn btn-primary" id="updateBtn">Update</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
