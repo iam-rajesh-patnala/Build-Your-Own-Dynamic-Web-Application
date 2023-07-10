@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Bookmark Maker</title>
+</head>
+
+<body>
+    <div class="bg-container">
+        <p class="greetings">Hello</p>
+        <h1 class="name">Jane Doe</h1>
+        <div class="form-container">
+            <h1 class="form-heading">Bookmark Your Favorite Sites</h1>
+            <form accept-charset="utf-8" class="form" id="bookmarkForm">
+                <div class="mb-4" id="">
+                    <label for="siteNameInput" class="label-text">SITE NAME</label>
+                    <input type="text" id="siteNameInput" class="form-control" placeholder="Enter site name" />
+                    <p class="error-message" id="siteNameErrMsg"></p>
+                </div>
+                <div class="mb-4" id="">
+                    <label for="siteUrlInput" class="label-text">SITE URL</label>
+                    <input type="text" id="siteUrlInput" class="form-control" placeholder="Enter site URL" />
+                    <p class="error-message" id="siteUrlErrMsg"></p>
+                </div>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary btn-custom" id="submitBtn">Submit</button>
+                </div>
+            </form>
+            <div>
+                <ul id="bookmarksList">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

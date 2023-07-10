@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.speedTypingTest {
+    background-image: linear-gradient(to right, #f3eaff, #dac0ff);
+    height: 100vh;
+    padding: 25px;
+}
+
+.main-heading {
+    color: #690cb0;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.caption {
+    color: #3e4c59;
+    font-size: 15px;
+}
+
+.clock-img {
+    width: 45px;
+    height: 45px;
+}
+
+.clock-section {
+    margin: 30px 0;
+}
+
+.timer {
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+.seconds {
+    font-size: 15px;
+}
+
+.input-container {
+    background-color: #f2ebfe;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #9aa5b1;
+}
+
+.quote-display {
+    font-size: 20px;
+    color: #323f4b;
+}
+
+.result-text {
+    color: #3e4c59;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 30px;
+}
+
+.submit-btn {
+    width: 90px;
+    color: #ffffff;
+    background-color: #690cb0;
+    border-radius: 8px;
+}
+
+.submit-btn:hover {
+    color: #ffffff;
+}
+
+.reset-btn {
+    width: 90px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 20px;
+}

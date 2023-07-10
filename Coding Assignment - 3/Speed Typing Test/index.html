@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Speed Typing Test</title>
+</head>
+
+<body>
+    <div class="speedTypingTest" id="speedTypingTest">
+        <h1 class="main-heading">Speed Typing Test</h1>
+        <p class="caption">On your fingers lets set Go!</p>
+
+        <div class="clock-section d-flex flex-row">
+            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" alt="clock" class="clock-img" />
+            <p id="timer" class="timer">0</p>
+        </div>
+
+        <div class="input-container">
+            <p class="quote-display" id="quoteDisplay"></p>
+            <textarea name="textarea" id="quoteInput" rows="5" class="form-control"
+                placeholder="Type here!!"></textarea>
+        </div>
+
+        <p class="result-text" id="result"></p>
+
+        <div class="button-container">
+            <button type="submit" class="btn submit-btn" id="submitBtn">Submit</button>
+            <button type="submit" class="btn reset-btn" id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <!-- spinner -->
+    <div class="col-12 d-none mt-5" id="spinner">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="spinner-border" role="status"></div>
+        </div>
+    </div>
+</body>
+
+</html>
